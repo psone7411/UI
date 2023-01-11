@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruits UI</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <script src="WOW-master/WOW-master/dist/wow.min.js"></script>
+  <script src="./wow.js "></script>
+  <script>
+    wow = new WOW({
+      boxClass: 'wow', // default
+      animateClass: 'animate__animated', // default
+      offset: 0, // default
+      mobile: true, // default
+      live: true, // default
+    });
+    wow.init();
+  </script>
+  <script src="app.js" defer></script>
+  <body>
+    <button class="darkModeBtn" id="darkModeBtn">
+      <i class="fa-solid fa-moon fa-2xl fa-sun"></i>
+    </button>
+    <section class="first-page page">
+      <nav class="main-nav">
+        <div class="logo-container">
+          <img src="images/logo.png" alt="logo" class="logo" />
+          <h3 class="logo-text">TROPIKO</h3>
+        </div>
+
+        <ul class="list-container animate__animated animate__fadeInDown">
+          <li class="list-items">Home</li>
+          <li class="list-items">Fruits</li>
+          <li class="list-items">Services</li>
+          <li class="list-items">Contact Us</li>
+          <li class="list-items">Icon</li>
+          <button class="nav-btn">GET A QUOTE</button>
+        </ul>
+        <div class="menu-container">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+ 
+      </nav>
+      <div class="first-page-main-container">
+        <div class="first-page-body-text-container wow animate__backInLeft">
+          <h1 class="first-page-body-title">Welcome To Our Fruits Shop</h1>
+          <p class="first-page-body-body">
+            There are many varirations of passages of Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Asperiores, dolor cupiditate? Dolor, error. Dolore earum aut omnis
+            saepe impedit pariatur alias laborum, placeat minus voluptatem iure quae porro culpa et?
+          </p>
+          <div class="first-page-body-button-container">
+            <button class="first-page-body-button btn">Shop Now</button
+            ><button class="first-page-body-button btn">Contact Us</button>
+          </div>
+        </div>
+        <div class="first-page-image-container wow animate__fadeInDown">
+          <img src="images/slide-img.png" alt="" class="first-page-image" />
+        </div>
+      </div>
+      <div class="first-page-footer"></div>
+    </section>
+
+    <section class="second-page page">
+      <div class="second-page-container">
+        <div class="seccond-page-title-container">
+          <h1 class="second-page-title">Our Services</h1>
+          <p class="second-page-text">
+            There are many varirations of passages of Lorem Ipsum available, but the majority have
+          </p>
+        </div>
+        <div class="second-page-card-container">
+          <div class="first-card-container card wow animate__rollIn" data-wow-duration="1s">
+            <div class="card-image-container">
+              <img src="images/card-item-1.png" class="card-image" alt="" />
+            </div>
+            <div class="card-text-container">
+              <h4 class="card-text-title">Orange</h4>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet accusantium dolores
+                dignissimos excepturi numquam est explicabo quibusdam adipisci praesentium officia
+              </p>
+            </div>
+          </div>
+          <div class="second-card-container card wow animate__rollIn" data-wow-duration="1.5s">
+            <div class="card-image-container">
+              <img src="images/card-item-2.png" class="card-image" alt="" />
+            </div>
+            <div class="card-text-container">
+              <h4 class="card-text-title">Grape</h4>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet accusantium dolores
+                dignissimos excepturi numquam est explicabo quibusdam adipisci praesentium officia
+              </p>
+            </div>
+          </div>
+          <div class="third-card-container card wow animate__rollIn" data-wow-duration="2s">
+            <div class="card-image-container">
+              <img src="images/card-item-3.png" class="card-image" alt="" />
+            </div>
+            <div class="card-text-container">
+              <h4 class="card-text-title">Guava</h4>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet accusantium dolores
+                dignissimos excepturi numquam est explicabo quibusdam adipisci praesentium officia
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="second-page-button-container">
+          <button class="seond-page-btn btn">Read More</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="third-page page">
+      <div class="seccond-page-title-container third-page-title-container">
+        <h1 class="second-page-title third-page-title">Fresh Fruits</h1>
+        <p class="second-page-text third-page-text">
+          There are many varirations of passages of Lorem Ipsum available, but the majority have
+        </p>
+      </div>
+      <div class="third-page-card-container">
+        <div class="third-page-card">
+          <div class="third-page-card-text-container wow animate__lightSpeedInLeft">
+            <h3 class="third-page-card-title">Best Fresh Orange</h3>
+            <p class="third-page-card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam dicta
+              dolorum quasi sit natus excepturi, aliquid pariatur fugiat quae, quia, nostrum optio
+              magnam nam omnis dolor voluptates consectetur aut!
+            </p>
+            <div class="third-page-card-button-container">
+              <button class="third-page-button btn">Buy Now</button>
+            </div>
+          </div>
+          <div class="third-page-card-image-container wow animate__lightSpeedInRight">
+            <img src="images/orange.png" alt="" class="third-page-card-image" />
+          </div>
+        </div>
+
+        <div class="third-page-card">
+          <div class="third-page-card-text-container wow animate__lightSpeedInLeft">
+            <h3 class="third-page-card-title">Best Fresh Grapes</h3>
+            <p class="third-page-card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam dicta
+              dolorum quasi sit natus excepturi, aliquid pariatur fugiat quae, quia, nostrum optio
+              magnam nam omnis dolor voluptates consectetur aut!
+            </p>
+            <div class="third-page-card-button-container">
+              <button class="third-page-button btn">Buy Now</button>
+            </div>
+          </div>
+          <div class="third-page-card-image-container wow animate__lightSpeedInRight">
+            <img src="images/grapes.png" alt="" class="third-page-card-image grapes" />
+          </div>
+        </div>
+
+        <div class="third-page-card">
+          <div class="third-page-card-text-container wow animate__lightSpeedInLeft">
+            <h3 class="third-page-card-title">Best Fresh Guava</h3>
+            <p class="third-page-card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam dicta
+              dolorum quasi sit natus excepturi, aliquid pariatur fugiat quae, quia, nostrum optio
+              magnam nam omnis dolor voluptates consectetur aut!
+            </p>
+            <div class="third-page-card-button-container">
+              <button class="third-page-button btn">Buy Now</button>
+            </div>
+          </div>
+          <div class="third-page-card-image-container wow animate__lightSpeedInRight">
+            <img src="images/gauva.png" alt="" class="third-page-card-image guava" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fourth-page page">
+      <div class="background-image-container">
+        <h1 class="background-image-title">Very Tasty Fruits</h1>
+      </div>
+      <div class="fourth-page-footer"></div>
+    </section>
+
+    <section class="fifth-page page">
+      <div class="seccond-page-title-container fifth-page-title-container">
+        <h1 class="second-page-title">Testimonial</h1>
+        <p class="second-page-text">
+          There are many variations of passages of Lorem Ipsum available, but the majority have
+        </p>
+      </div>
+      <div class="fifth-page-card-container">
+        <div class="fifth-page-image-container">
+          <img src="images/client.png" alt="" class="client-image" />
+        </div>
+        <h3 class="client-name">Johnhex</h3>
+        <p class="client-review-text">
+          There are many variations of passages of Lorem Ipsum available, but the majority have
+          suffered alteration in some form, by injected humour, or randomised words which don't look
+          even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be
+          sure
+        </p>
+        <div class="fifth-page-button-container">
+          <button class="fifth-page-button"><-</button>
+          <button class="fifth-page-button">-></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="sixth-page page">
+      <div class="sixth-page-container">
+        <h1 class="sixth-page-title">Contact Us</h1>
+        <div class="input-container">
+          <input
+            type="text"
+            class="input wow animate__fadeInLeftBig"
+            data-wow-delay="0.1s"
+            placeholder="Name"
+          />
+          <input
+            type="text"
+            class="input wow animate__fadeInLeftBig"
+            data-wow-delay="0.3s"
+            placeholder="Phone Number"
+          />
+          <input
+            type="text"
+            class="input wow animate__fadeInLeftBig"
+            data-wow-delay="0.6s"
+            placeholder="Email"
+          />
+          <textarea
+            type="text"
+            class="input wow animate__fadeInLeftBig"
+            data-wow-delay="0.9s"
+            placeholder="Message"
+          ></textarea>
+        </div>
+        <div class="button-container">
+          <button class="btn">SEND</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="eigth-page page">
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d666.6903355602805!2d97.6264613647433!3d16.464098025878357!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smm!4v1673318436361!5m2!1sen!2smm"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <section class="ninth-page page">
+      <div class="ninth-page-container">
+        <div class="text-column-container">
+          <div class="text-container wow animate__fadeInDown" data-wow-duration="0.5s">
+            <h4 class="ninth-page-title">Fruits</h4>
+            <p class="ninth-page-text">
+              randomised words which don't look even slightly believable. If you are going to use a
+              passage of Lorem Ipsum,
+            </p>
+          </div>
+          <div class="text-container wow animate__fadeInDown" data-wow-duration="1s">
+            <h4 class="ninth-page-title">Services</h4>
+            <p class="ninth-page-text">
+              randomised words which don't look even slightly believable. If you are going to use a
+              passage of Lorem Ipsum,
+            </p>
+          </div>
+          <div class="text-container wow animate__fadeInDown" data-wow-duration="1.5s">
+            <h4 class="ninth-page-title">List</h4>
+            <p class="ninth-page-text">
+              randomised words which don't look even slightly believable. If you are going to use a
+              passage of Lorem Ipsum,
+            </p>
+          </div>
+          <div class="text-container box wow animate__fadeInDown" data-wow-duration="2s">
+            <h4 class="ninth-page-title">Follow Us</h4>
+            <div class="icon-container">
+              <div class="icons wow animate__fadeInDown" data-wow-delay="1s">
+                <i class="fa-brands fa-facebook fa-2xl"></i>
+              </div>
+              <div class="icons wow animate__fadeInDown" data-wow-delay="1.2s">
+                <i class="fa-brands fa-twitter fa-2xl"></i>
+              </div>
+              <div class="icons wow animate__fadeInDown" data-wow-delay="1.3s">
+                <i class="fa-brands fa-linkedin fa-2xl"></i>
+              </div>
+              <div class="icons wow animate__fadeInDown" data-wow-delay="1.4s">
+                <i class="fa-brands fa-instagram fa-2xl"></i>
+              </div>
+            </div>
+            <h2 class="text">Subscribe Now</h2>
+            <input type="text" class="ninth-input" />
+            <button class="btn">Subscribe</button>
+          </div>
+        </div>
+        <div class="copyRight-container">
+          <h4 class="copyRight">Copyright © 2045 All Rights Reserved By Html Design</h4>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
